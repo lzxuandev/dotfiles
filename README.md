@@ -4,9 +4,8 @@ A Hyprland configuration with minimal black and white e-ink themes, and essentia
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Hyprland](https://img.shields.io/badge/Hyprland-87CEEB?style=for-the-badge&logo=hyprland&logoColor=white)
-![Fish](https://img.shields.io/badge/fish-F15A24?style=for-the-badge&logo=fish&logoColor=white)
 ![Neovim](https://img.shields.io/badge/neovim-281733?style=for-the-badge&logo=neovim&logoColor=white)
-![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
+![Quickshell](https://img.shields.io/badge/quickshell-3b9a5c?style=for-the-badge&logo=quickshell&logoColor=black)
 
 ## Showcase
 <div align="center">
@@ -75,6 +74,9 @@ A Hyprland configuration with minimal black and white e-ink themes, and essentia
 | Mpc                      | [mpc](https://github.com/MusicPlayerDaemon/mpc)     | ![][c]   |
 
 <br>
+
+https://github.com/user-attachments/assets/fa45690f-ed9e-4ae9-af76-a1b1d928fac2
+
 <br>
 
 ## Disclaimer
