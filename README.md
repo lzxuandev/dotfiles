@@ -12,7 +12,7 @@ A Hyprland configuration with minimal black and white e-ink themes, and essentia
 <div align="center">
 <div style="display:flex; justify-content:center; gap:10px;">
   <img src="./assets/desktop.png" width="30%" />
-  <img src="./assets/linux.png" width="30%" />
+  <img src="./assets/powermenu.png" width="30%" />
   <img src="./assets/lock.png" width="30%" />
 </div>
 <p><i>System Overview</i></p>
