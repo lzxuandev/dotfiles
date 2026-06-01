@@ -10,19 +10,19 @@ A Hyprland configuration with Quickshell, black and white e-ink themes, and esse
 
 ## Showcase
 
-![desktop](./.github/assets/01.png)
-![terminal](./.github/assets/02.png)
-![system](./.github/assets/03.png)
+![desktop](./assets/01.png)
+![terminal](./assets/02.png)
+![system](./assets/03.png)
 
 <br>
 
 <h2>
-  <img src="./.github/assets/wayland.svg" width="20" style="vertical-align: middle;" />
+  <img src="./assets/wayland.svg" width="20" style="vertical-align: middle;" />
   Desktop
 </h2>
 
 
-### <img src="./.github/assets/hyprland.svg" width="18" style="vertical-align: middle;" /> Hyprland Ecosystem
+### <img src="./assets/hyprland.svg" width="18" style="vertical-align: middle;" /> Hyprland Ecosystem
 
 | Description        | Tool                                           | Language |
 | :----------------- | :--------------------------------------------- | :------: |
@@ -35,7 +35,7 @@ A Hyprland configuration with Quickshell, black and white e-ink themes, and esse
 | Description              | Tool                                        | Language |
 | :----------------------- | :------------------------------------------ | :------: |
 | Notification daemon      | [mako](https://github.com/emersion/mako)    |  ![][c]  |
-| Minimal Wayland launcher | [tofi](https://github.com/philj56/tofi)     |  ![][c]  |
+| Minimal Wayland launcher | [rofi](https://github.com/davatorium/rofi)  |  ![][c]  |
 | GTK-based launcher       | [wofi](https://hg.sr.ht/~scoopta/wofi)      |  ![][c]  |
 | Status bar               | [waybar](https://github.com/Alexays/Waybar) | ![][cpp] |
 
