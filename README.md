@@ -10,51 +10,61 @@ A Hyprland configuration with Quickshell, black and white e-ink themes, and esse
 
 ## Showcase
 
-![desktop](./assets/01.png)
-![terminal](./assets/02.png)
-![system](./assets/03.png)
+![Desktop](./assets/desktop.png)
+![Fastfetch](./assets/fastfetch.png)
+![Yazi](./assets/yazi.png)
+![btop](./assets/btop.png)
+![Launcher](./assets/launcher.png)
+![Rofi](./assets/rofi.png)
+![OSD Bar](./assets/osdbar.png)
+![Wallpaper Picker](./assets/wallpaperpicker.png)
+![Music Player](./assets/musicplayer.png)
+![Lock](./assets/lock.png)
 
 <br>
 
-<h2>
-  <img src="./assets/wayland.svg" width="20" style="vertical-align: middle;" />
-  Desktop
-</h2>
 
-
-### <img src="./assets/hyprland.svg" width="18" style="vertical-align: middle;" /> Hyprland Ecosystem
+### Hyprland Ecosystem
 
 | Description        | Tool                                           | Language |
 | :----------------- | :--------------------------------------------- | :------: |
 | Wayland compositor | [Hyprland](https://github.com/hyprwm/Hyprland) | ![][cpp] |
 | Idle daemon        | [hypridle](https://github.com/hyprwm/hypridle) | ![][cpp] |
 | Screen locker      | [hyprlock](https://github.com/hyprwm/hyprlock) | ![][cpp] |
+| Color picker       | [hyprpicker](https://github.com/hyprwm/hyprpicker) | ![][cpp] |
 
 ### Wayland Utilities
 
 | Description              | Tool                                        | Language |
 | :----------------------- | :------------------------------------------ | :------: |
-| Notification daemon      | [mako](https://github.com/emersion/mako)    |  ![][c]  |
-| Minimal Wayland launcher | [rofi](https://github.com/davatorium/rofi)  |  ![][c]  |
-| GTK-based launcher       | [wofi](https://hg.sr.ht/~scoopta/wofi)      |  ![][c]  |
-| Status bar               | [waybar](https://github.com/Alexays/Waybar) | ![][cpp] |
+| Wallpaper Manager        | [awww](https://codeberg.org/LGFae/awww)     | ![][rs]  |
+| Notification Daemon      | [mako](https://github.com/emersion/mako)    |  ![][c]  |
+| Minimal Wayland Launcher | [rofi](https://github.com/davatorium/rofi)  |  ![][c]  |
+| Status Bar               | [waybar](https://github.com/Alexays/Waybar) | ![][cpp] |
+| Music Player Daemon      | [mpd](https://github.com/musicplayerdaemon/mpd) | ![][cpp]|
+| Quickshell               | [quickshell](https://quickshell.org/)       | ![][cpp] |
 
 <br>
 
+### Tools
 
-| Category | Role                     | Tool                                                | Language |
-| :------- | :----------------------- | :-------------------------------------------------- | :------: |
-| Shell    | Interactive shell        | [fish](https://fish.com/)                           |  ![][c]  |
-| Shell    | Prompt engine            | [starship](https://github.com/starship/starship)    | ![][rs]  |
-| Terminal | Wayland terminal         | [foot](https://codeberg.org/dnkl/foot)              |  ![][c]  |
+| Role                     | Tool                                                | Language |
+| :----------------------- | :-------------------------------------------------- | :------: |
+| Editor                   | [nvim](https://github.com/neovim/neovim)            | ![][vim] |
+| Interactive shell        | [fish](https://fish.com/)                           |  ![][c]  |
+| Wayland terminal         | [foot](https://codeberg.org/dnkl/foot)              |  ![][c]  |
+| Prompt engine            | [starship](https://github.com/starship/starship)    | ![][rs]  |
+| File Manager             | [yazi](https://github.com/sxyazi/yazi)              | ![][rs]  |
+| Grim                     | [grim](https://sr.ht/~emersion/grim/)               | ![][c]   |
+| Slurp                    | [slurp](https://github.com/emersion/slurp)          | ![][c]   |
+| Tesseract                | [tesseract](https://github.com/tesseract-ocr/tesseract) | ![][cpp]|
+| Mpc                      | [mpc](https://github.com/MusicPlayerDaemon/mpc)     | ![][c]   |
 
 <br>
 
 <!-- Language badges -->
 
 [rs]: https://img.shields.io/badge/-rust-orange
-[sh]: https://img.shields.io/badge/-shell-green
-[go]: https://img.shields.io/badge/-go-68D7E2
+[vim]: https://img.shields.io/badge/-vim-green
 [cpp]: https://img.shields.io/badge/-c%2B%2B-red
 [c]: https://img.shields.io/badge/-c-lightgrey
-[ts]: https://img.shields.io/badge/-TS-007BCD
