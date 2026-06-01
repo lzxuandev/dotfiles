@@ -75,6 +75,15 @@ A Hyprland configuration with minimal black and white e-ink themes, and essentia
 | Mpc                      | [mpc](https://github.com/MusicPlayerDaemon/mpc)     | ![][c]   |
 
 <br>
+<br>
+
+## Disclaimer
+
+This repository is intended to provide a configuration reference, preview, and demonstration for users who appreciate a minimalist black-and-white (e-ink) aesthetic on Linux.
+
+This configuration is tailored to my personal environment. Given that the Hyprland ecosystem and its components (such as Quickshell, waybar, rofi, etc.) update frequently, some configurations may become outdated or experience issues if you clone them directly. 
+
+ I recommend using these files as a guide while adjusting them to your specific system environment. Please refer to the official documentation of each tool to ensure compatibility with your current kernel version and installed plugins. Thank you :)
 
 <!-- Language badges -->
 
