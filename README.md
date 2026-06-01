@@ -1,6 +1,6 @@
 # lzxuan-dots
 
-A Hyprland configuration with Quickshell, black and white e-ink themes, and essential tools for a beautiful Wayland desktop experience.
+A Hyprland configuration with minimal black and white e-ink themes, and essential tools for a beautiful Wayland desktop experience.
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Hyprland](https://img.shields.io/badge/Hyprland-87CEEB?style=for-the-badge&logo=hyprland&logoColor=white)
