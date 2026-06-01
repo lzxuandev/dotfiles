@@ -9,20 +9,34 @@ A Hyprland configuration with Quickshell, black and white e-ink themes, and esse
 ![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
 
 ## Showcase
+<div align="center">
+<div style="display:flex; justify-content:center; gap:10px;">
+  <img src="./assets/desktop.png" width="30%" />
+  <img src="./assets/linux.png" width="30%" />
+  <img src="./assets/lock.png" width="30%" />
+</div>
+<p><i>System Overview</i></p>
 
-![Desktop](./assets/desktop.png)
-![Fastfetch](./assets/fastfetch.png)
-![Yazi](./assets/yazi.png)
-![btop](./assets/btop.png)
-![Launcher](./assets/launcher.png)
-![Rofi](./assets/rofi.png)
-![OSD Bar](./assets/osdbar.png)
-![Wallpaper Picker](./assets/wallpaperpicker.png)
-![Music Player](./assets/musicplayer.png)
-![Lock](./assets/lock.png)
+<br/>
 
-<br>
+<div style="display:flex; justify-content:center; gap:10px;">
+  <img src="./assets/yazi.png" width="30%" />
+  <img src="./assets/btop.png" width="30%" />
+  <img src="./assets/fastfetch.png" width="30%" />
+</div>
+<p><i>File Management & System Monitoring</i></p>
 
+<br/>
+
+<div style="display:flex; justify-content:center; gap:10px;">
+  <img src="./assets/launcher.png" width="30%" />
+  <img src="./assets/wallpaperpicker.png" width="30%" />
+  <img src="./assets/musicplayer.png" width="30%" />
+</div>
+<p><i>UI Components & Media</i></p>
+</div>
+
+---
 
 ### Hyprland Ecosystem
 
