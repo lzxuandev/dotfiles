@@ -4,8 +4,8 @@ A Hyprland configuration with Quickshell, black and white e-ink themes, and esse
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Hyprland](https://img.shields.io/badge/Hyprland-87CEEB?style=for-the-badge&logo=hyprland&logoColor=white)
-![Fish](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=fish&logoColor=white)
-![Neovim](https://img.shields.io/badge/Helix-281733?style=for-the-badge&logo=neovim&logoColor=white)
+![Fish](https://img.shields.io/badge/fish-F15A24?style=for-the-badge&logo=fish&logoColor=white)
+![Neovim](https://img.shields.io/badge/neovim-281733?style=for-the-badge&logo=neovim&logoColor=white)
 ![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
 
 ## Showcase
@@ -41,11 +41,6 @@ A Hyprland configuration with Quickshell, black and white e-ink themes, and esse
 
 <br>
 
-<h2>
-  <img src="./.github/assets/fish.svg" width="20" style="vertical-align: middle;" />
-  Development Environment
-  <img src="./.github/assets/foot.svg" width="20" style="vertical-align: middle;" />
-</h2>
 
 | Category | Role                     | Tool                                                | Language |
 | :------- | :----------------------- | :-------------------------------------------------- | :------: |
