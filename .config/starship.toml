@@ -1,0 +1,13 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "$directory\n$character"
+
+[directory]
+home_symbol     = "~"
+style           = "#7c7c7c"
+read_only       = " 󰌾"
+read_only_style = "#7c7c7c"
+
+[character]
+success_symbol  = "[❯](white)"
+error_symbol    = "[❯](white)"

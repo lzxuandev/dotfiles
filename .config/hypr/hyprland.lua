@@ -1,0 +1,10 @@
+require("modules/monitors")
+require("modules/autostart")
+require("modules/environment")
+require("modules/permissions")
+require("modules/looks")
+require("modules/misc")
+require("modules/input")
+require("modules/binds")
+require("modules/rules")
+
