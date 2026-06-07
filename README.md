@@ -9,28 +9,29 @@ A Hyprland configuration with minimal black and white e-ink themes, and essentia
 
 ## Showcase
 <div align="center">
+  
 <div style="display:flex; justify-content:center; gap:10px;">
-  <img src="./assets/desktop.png" width="30%" />
-  <img src="./assets/powermenu.png" width="30%" />
-  <img src="./assets/lock.png" width="30%" />
+    <img src="https://github.com/user-attachments/assets/020a5a94-841e-4b9d-a6fe-97be0514140d" width="30%" />
+    <img src="https://github.com/user-attachments/assets/6fd6eee3-4901-4b17-b676-c2e2c3a4f825" width="30%" />  
+    <img src="https://github.com/user-attachments/assets/cc5cac8d-be3c-44d3-a9f0-96e176eaa2b8" width="30%"  />
 </div>
 <p><i>System Overview</i></p>
 
 <br/>
 
 <div style="display:flex; justify-content:center; gap:10px;">
-  <img src="./assets/yazi.png" width="30%" />
-  <img src="./assets/btop.png" width="30%" />
-  <img src="./assets/fastfetch.png" width="30%" />
+  <img width="30%" alt="yazi" src="https://github.com/user-attachments/assets/827f8e98-6480-43c9-a030-913573f0a3a2" />
+  <img width="30%" alt="fastfetch" src="https://github.com/user-attachments/assets/20170f2e-a008-4d32-b807-13ac717f4ff4" />
+  <img width="30%" alt="btop" src="https://github.com/user-attachments/assets/d7742cb8-f530-432a-a7f3-69bccbb87532" />
 </div>
 <p><i>File Management & System Monitoring</i></p>
 
 <br/>
 
 <div style="display:flex; justify-content:center; gap:10px;">
-  <img src="./assets/launcher.png" width="30%" />
-  <img src="./assets/wallpaperpicker.png" width="30%" />
-  <img src="./assets/musicplayer.png" width="30%" />
+<img width="30%" alt="wallpaperpicker" src="https://github.com/user-attachments/assets/0c92c030-125d-4254-92e7-06dc212f1b10" />
+<img width="30%" alt="musicplayer" src="https://github.com/user-attachments/assets/3fd2c106-44e3-4a92-a3cb-21c1bce2c21f" />
+<img width="30%" alt="launcher" src="https://github.com/user-attachments/assets/3af2cea0-eb8b-4802-b945-54782808c518" />
 </div>
 <p><i>UI Components & Media</i></p>
 </div>
@@ -93,3 +94,4 @@ This configuration is tailored to my personal environment. Given that the Hyprla
 [vim]: https://img.shields.io/badge/-vim-green
 [cpp]: https://img.shields.io/badge/-c%2B%2B-red
 [c]: https://img.shields.io/badge/-c-lightgrey
+
