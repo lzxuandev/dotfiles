@@ -1,0 +1,119 @@
+configuration {
+    hover-select: true;
+    kb-row-down: "l";
+    kb-row-up:  "h";
+    ml-row-up  :"";
+    ml-row-down: "";
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+}
+
+/*****----- Global Properties -----*****/
+* {
+    /* Resolution : 1920x1080 */
+    mainbox-spacing:             50px;
+    mainbox-margin:              50px;
+    message-margin:              0px 300px;
+    message-padding:             12px;
+    message-border-radius:       12px;
+    listview-spacing:            25px;
+    element-padding:             35px 0px;
+    element-border-radius:       60px;
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  true;
+    cursor:                      "default";
+    background-color:            #000000;
+
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     0;
+    margin:                      0;
+    background-color:            transparent;
+    children:                    [ "dummy", "inputbar", "message", "listview", "dummy" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    background-color:            transparent;
+    children:                    [ "dummy", "prompt", "dummy"];
+}
+
+dummy {
+    background-color:            transparent;
+}
+
+prompt {
+    enabled:                     true;
+    font:                        "JetBrainsMono Nerd Mono 28";
+    padding:                     10px 20px;
+    background-color:            transparent;
+    text-color:                  #555555;
+}
+
+/*****----- Message -----*****/
+message {
+    enabled:                     true;
+    margin:                      0;
+    padding:                     0;
+    background-color:            #000000;
+    text-color:                  #CCCCCC;
+}
+textbox {
+    font:                        "JetBrainsMono Nerd Font 12";
+    background-color:            transparent;
+    text-color:                  #888888;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    expand:                      false;
+    columns:                     5;
+    lines:                       1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    margin:                      0px 200px;
+    spacing:                     0;
+    background-color:            transparent;
+    cursor:                      "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    margin:                      10;
+    padding:                     15;
+    border-radius:               40;
+    background-color:            #FFFFFF22;
+    text-color:                  #CCCCCC;
+    cursor:                      pointer;
+}
+element-text {
+    font:                        "JetBrainsMono Nerd Font 25";
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+element selected.normal {
+    background-color:            #BBBBBB;
+    text-color:                  #000000;
+}

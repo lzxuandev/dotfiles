@@ -2,11 +2,17 @@
 ---- ENVIRONMENT VARIABLES ----
 -------------------------------
 
+hl.env("STARSHIP_CONFIG", "/home/lzx/.config/starship/starship.toml")
+
 -- XDG CONFIGURATION
+hl.env("XDG_DOWNLOAD_DIR", "/home/lzx/Downloads")
+hl.env("XDG_DOCUMENTS_DIR", "/home/lzx/Documents")
+hl.env("XDG_PICTURES_DIR", "/home/lzx/Pictures")
+hl.env("XDG_MUSIC_DIR", "/home/lzx/Music")
 hl.env("XDG_CONFIG_HOME", "/home/lzx/.config")
 hl.env("XDG_CACHE_HOME", "/home/lzx/.cache")
 hl.env("XDG_DATA_HOME", "/home/lzx/.local/share")
-hl.env("XDG_DATA_DIRS", "/usr/share")
+hl.env("XDG_DATA_DIRS", "/var/lib/flatpak/exports/share:/usr/share")
 hl.env("XDG_SESSION_TYPE", "wayland")
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 hl.env("XDG_SESSION_DESKTOP", "Hyprland")

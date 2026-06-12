@@ -23,6 +23,14 @@ hl.window_rule({
     no_focus = true,
 })
 
+-- Apply smart gaps/no-border ONLY to the special workspace
+hl.workspace_rule({ workspace = "w[tv1]s[true]", gaps_out = 0, gaps_in = 0 })
+hl.workspace_rule({ workspace = "f[1]s[true]", gaps_out = 0, gaps_in = 0 })
+hl.window_rule({ match = { float = false, workspace = "w[tv1]s[true]" }, border_size = 0 })
+hl.window_rule({ match = { float = false, workspace = "w[tv1]s[true]" }, rounding = 0 })
+hl.window_rule({ match = { float = false, workspace = "f[1]s[true]" }, border_size = 0 })
+hl.window_rule({ match = { float = false, workspace = "f[1]s[true]" }, rounding = 0 })
+
 hl.window_rule({
     match = {class = "waypaper"},
     float = true,
@@ -32,6 +40,11 @@ hl.window_rule({
 hl.layer_rule({
     match = { namespace = "notifications"},
     animation = "slide",
+})
+
+hl.layer_rule({
+    match = { namespace = "rofi"},
+    animation = "fade",
 })
 
 hl.workspace_rule({ workspace = "1", persistent = true })

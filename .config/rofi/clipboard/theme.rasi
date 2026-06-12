@@ -24,6 +24,38 @@
     alternate-active-foreground: #000000FF;
 }
 
+configuration {
+
+modi: "drun";
+font: "JetbrainsMono Nerd Font 10";
+show-icons: false;
+drun-display-format: "{name}";
+case-sensitive: false;
+case-smart: true;
+cycle: false;
+hover-select: true;
+scroll-method: 0;
+display-drun:               "Clipboard";
+display-run:                "";
+display-filebrowser:        "";
+display-window:             "";
+ml-row-left: "ScrollUp";
+ml-row-right: "ScrollDown";
+ml-row-up: "";
+ml-row-down: "";
+me-select-entry: "";
+me-accept-entry: "MousePrimary";
+
+    timeout {
+        action: "kb-cancel";
+        delay:  0;
+    }
+    filebrowser {
+        directories-first: true;
+        sorting-method:    "name";
+    }
+}
+
 /*****----- Main Window -----*****/
 window {
     /* properties for window widget */
@@ -91,7 +123,7 @@ entry {
     background-color:            transparent;
     text-color:                  #7f7f7f;
     cursor:                      text;
-    placeholder:                 "select an app...";
+    placeholder:                 "input text...";
     placeholder-color:           inherit;
     vertical-align:              0.5;
     horizontal-align:            0.1;

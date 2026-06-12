@@ -1,17 +1,14 @@
-local treesitter = require('nvim-treesitter')
-local languages = { 'c', 'cpp', 'lua' }
+vim.pack.add({"https://github.com/nvim-treesitter/nvim-treesitter"})
 
-vim.opt.runtimepath:prepend(vim.fn.stdpath('data') .. '/site/pack/core/opt/nvim-treesitter/runtime')
-
-treesitter.setup {
+require('nvim-treesitter').setup {
     install_dir = vim.fn.stdpath('data') .. '/site',
     highlight = { enable = true },
     indent = { enable = true },
 }
 
+require('nvim-treesitter').install { 'c', 'lua', 'rust', 'markdown', 'markdown_inline' }
+
 vim.api.nvim_create_autocmd('FileType', {
-    pattern = languages,
-    callback = function()
-        pcall(vim.treesitter.start)
-    end,
+    pattern = { 'c' , 'cpp', 'lua', 'rs', 'markdown', 'markdown_inline'},
+    callback = function() vim.treesitter.start() end,
 })

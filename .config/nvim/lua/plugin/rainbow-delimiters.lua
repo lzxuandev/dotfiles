@@ -1,3 +1,5 @@
+vim.pack.add({"https://gitlab.com/HiPhish/rainbow-delimiters.nvim"})
+
 vim.g.rainbow_delimiters = {
     strategy = {
         [''] = 'rainbow-delimiters.strategy.global',

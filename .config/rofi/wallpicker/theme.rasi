@@ -24,6 +24,15 @@
     alternate-active-foreground: #000000FF;
 }
 
+configuration {
+    font: "JetbrainsMono NerdFont 10";
+    hover-select: true;
+    ml-row-up  :"";
+    ml-row-down: "";
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+}
+
 /*****----- Main Window -----*****/
 window {
     /* properties for window widget */
@@ -31,7 +40,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       400px;
+    width:                       800px;
     height:                      450px;
     x-offset:                    0px;
     y-offset:                    0px;
@@ -42,7 +51,7 @@ window {
     padding:                     0px;
     border:                      0px solid;
     border-radius:               20px;
-    border-color:                @border-colour;
+    border-color:                #ffffff0D;
     background-color:            transparent;
     cursor:                      "default";
 }
@@ -52,10 +61,10 @@ mainbox {
     enabled:                     true;
     spacing:                     10px;
     margin:                      0px;
-    padding:                     15px 20px;
-    border:                      2px solid;
-    border-radius:               20px;
-    border-color:                #ffffff0A;
+    padding:                     18px 20px;
+    border:                      1px;
+    border-radius:               0px 0px 0px 0px;
+    border-color:                #ffffff0D;
     background-color:            #000000;
     children:                    [ "inputbar", "listview" ];
 }
@@ -91,7 +100,7 @@ entry {
     background-color:            transparent;
     text-color:                  #7f7f7f;
     cursor:                      text;
-    placeholder:                 "select an app...";
+    placeholder:                 "select a wallpaper...";
     placeholder-color:           inherit;
     vertical-align:              0.5;
     horizontal-align:            0.1;
@@ -100,7 +109,7 @@ entry {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     1;
+    columns:                     3;
     lines:                       12;
     cycle:                       false;
     dynamic:                     true;
@@ -108,9 +117,10 @@ listview {
     layout:                      vertical;
     reverse:                     false;
     fixed-height:                false;
-    fixed-columns:               true;
+    fixed-columns:               false;
+    orientation:                 vertical;
 
-    spacing:                     20px;
+    spacing:                     10px;
     margin:                      0px;
     padding:                     12px;
     border:                      0px solid;
@@ -120,6 +130,7 @@ listview {
     text-color:                  @foreground-colour;
     cursor:                      "default";
 }
+
 scrollbar {
     handle-width:                5px ;
     handle-color:                @handle-colour;
@@ -130,7 +141,7 @@ scrollbar {
 /*****----- Elements -----*****/
 element {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     5px;
     margin:                      0px;
     padding:                     10px;
     border:                      0px solid;
@@ -139,6 +150,7 @@ element {
     background-color:            transparent;
     text-color:                  @foreground-colour;
     cursor:                      pointer;
+    orientation:                 vertical;
 }
 element normal.normal {
     background-color:            transparent;
@@ -156,7 +168,7 @@ element normal.active {
 }
 
 element selected.normal {
-    background-color:            #ffffff11;
+    background-color:            rgba(255,255,255,0.05);
     text-color:                  #F8F4FF;
 }
 
@@ -188,7 +200,7 @@ element alternate.active {
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        28px;
+    size:                        120px;
     cursor:                      inherit;
 }
 
@@ -198,7 +210,8 @@ element-text {
     highlight:                   inherit;
     cursor:                      inherit;
     vertical-align:              0.5;
-    horizontal-align:            0.0;
+    horizontal-align:            0.5;
+    font:                        "JetbrainsMono Nerd Font 9";
 }
 
 /*****----- Mode Switcher -----*****/

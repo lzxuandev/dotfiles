@@ -256,7 +256,7 @@ dirs  = [
 	{ name = "Game", text = "󰊴", fg = "#EEEEEE" },
 	{ name = ".npm", text = "", fg = "#EEEEEE" },
 	{ name = "Desktop", text = "", fg = "#EEEEEE" },
-	{ name = "Development", text = "", fg = "#EEEEEE" },
+	{ name = "Programming", text = "", fg = "#EEEEEE" },
 	{ name = "Documents", text = "", fg = "#EEEEEE" },
 	{ name = "Downloads", text = "", fg = "#EEEEEE" },
 	{ name = "Library", text = "", fg = "#EEEEEE" },

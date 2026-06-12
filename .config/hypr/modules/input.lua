@@ -14,6 +14,8 @@ hl.config({
 	    accel_profile = "flat",
         sensitivity = 0.3, -- -1.0 - 1.0, 0 means no modification.
 
+        scroll_method = "on_button_down",
+        scroll_button = 274,
 
         touchpad = {
             natural_scroll = true,
@@ -28,4 +30,3 @@ hl.gesture({
     direction = "horizontal",
     action = "workspace"
 })
-

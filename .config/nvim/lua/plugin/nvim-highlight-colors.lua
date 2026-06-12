@@ -1,3 +1,5 @@
+vim.pack.add({"https://github.com/brenoprata10/nvim-highlight-colors"})
+
 require("nvim-highlight-colors").setup {
 	---Render style
 	---@usage 'background'|'foreground'|'virtual'
@@ -30,7 +32,7 @@ require("nvim-highlight-colors").setup {
 
 	---Highlight hsl colors, e.g. 'hsl(150deg 30% 40%)'
 	enable_hsl = true,
-	
+
 	---Highlight ansi colors, e.g '\033[0;34m'
 	enable_ansi = true,
 

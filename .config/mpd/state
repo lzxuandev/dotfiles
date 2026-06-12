@@ -1,7 +1,7 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Output
 state: stop
-current: 21
+current: 40
 random: 1
 repeat: 0
 single: 0
@@ -11,54 +11,53 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:RADWIMPS - Suzume.mp3
-1:Adele - Easy on me.mp3
-2:Aha - Take on Me.mp3
-3:Alexi Murdoch - All My Days.mp3
-4:Alphaville - Forever Young Official Video.mp3
-5:American Authors - Best Day Of My Life (Lyrics).mp3
-6:Bastille - Pompeii.mp3
-7:BIGBANG - IF YOU.mp3
-8:BTS - Left and Right.mp3
-9:Coldplay - Yellow (Official Video).mp3
-10:Cyberpunk - I Really Want To Stay At Your House.mp3
-11:Cyberpunk - Let You Down.mp3
-12:David Kushner - Daylight (Official Music Video).mp3
-13:Eagles - Hotel California.mp3
-14:Ed Sheeran - Happier.mp3
-15:EKKSTACY - i walk this earth all by myself.mp3
-16:Ghost - Mary On A Cross.mp3
-17:Guns N_ Roses - Sweet Child.mp3
-18:GYM Class Hereos - Stereo Hearts.mp3
-19:Imagine Dragons - shots.mp3
-20:Jason Mraz - I_m Yours.mp3
-21:Jaychou - 发如雪.mp3
-22:John Denver - Take Me Home, Country Roads (Official Audio).mp3
-23:Josh Turner - Your Man (Official Music Video).mp3
-24:Lesley Lee - 好想好好.mp3
-25:Low Roar - Bones.mp3
-26:Low Roar - Don_t be so serious.mp3
-27:Low Roar - Easy Way Out.mp3
-28:Low Roar - I’ll Keep Coming.mp3
-29:Low Roar - Patience.mp3
-30:Low Roar - Waiting.mp3
-31:M83 - Midnight City.mp3
-32:Matryoshka - Sacred Play Secret Place.mp3
-33:NCS - Fearless.mp3
-34:One Direction - What Makes You Beautiful.mp3
-35:Pharrell Williams - Happy (Official Video).mp3
-36:Pushu - 平凡之路.mp3
-37:RADWIMPS - Suzume.mp3
-38:Richard Marx - Right Here Waiting (Official Music Video).mp3
-39:Seredris - Daylight.mp3
-40:Shakira - Try Everything.mp3
-41:She Her Her Hers - Bloody Mary Girl.mp3
-42:She Her Her Hers - Episode 33.mp3
-43:She Her Her Hers - swallowtail.mp3
-44:Sparkle - Your Name AMV.mp3
-45:Taylor Swift - exile.mp3
-46:The Police - Every Breath You Take (Official Music Video).mp3
-47:Toto - Africa (Official HD Video).mp3
-48:VØJ, Narvent - Memory Reboot.mp3
-49:Why Don_t We - 8 Letters.mp3
+0:Adele - Easy on me.mp3
+1:Aha - Take on Me.mp3
+2:Alexi Murdoch - All My Days.mp3
+3:Alphaville - Forever Young Official Video.mp3
+4:American Authors - Best Day Of My Life (Lyrics).mp3
+5:Bastille - Pompeii.mp3
+6:BIGBANG - IF YOU.mp3
+7:BTS - Left and Right.mp3
+8:Coldplay - Yellow (Official Video).mp3
+9:Cyberpunk - I Really Want To Stay At Your House.mp3
+10:Cyberpunk - Let You Down.mp3
+11:David Kushner - Daylight (Official Music Video).mp3
+12:Eagles - Hotel California.mp3
+13:Ed Sheeran - Happier.mp3
+14:EKKSTACY - i walk this earth all by myself.mp3
+15:Ghost - Mary On A Cross.mp3
+16:Guns N_ Roses - Sweet Child.mp3
+17:GYM Class Hereos - Stereo Hearts.mp3
+18:Imagine Dragons - shots.mp3
+19:Jason Mraz - I_m Yours.mp3
+20:Jaychou - 发如雪.mp3
+21:John Denver - Take Me Home, Country Roads (Official Audio).mp3
+22:Josh Turner - Your Man (Official Music Video).mp3
+23:Lesley Lee - 好想好好.mp3
+24:Low Roar - Bones.mp3
+25:Low Roar - Don_t be so serious.mp3
+26:Low Roar - Easy Way Out.mp3
+27:Low Roar - I’ll Keep Coming.mp3
+28:Low Roar - Patience.mp3
+29:Low Roar - Waiting.mp3
+30:M83 - Midnight City.mp3
+31:Matryoshka - Sacred Play Secret Place.mp3
+32:NCS - Fearless.mp3
+33:One Direction - What Makes You Beautiful.mp3
+34:Pharrell Williams - Happy (Official Video).mp3
+35:Pushu - 平凡之路.mp3
+36:RADWIMPS - Suzume.mp3
+37:Richard Marx - Right Here Waiting (Official Music Video).mp3
+38:Seredris - Daylight.mp3
+39:Shakira - Try Everything.mp3
+40:She Her Her Hers - Bloody Mary Girl.mp3
+41:She Her Her Hers - Episode 33.mp3
+42:She Her Her Hers - swallowtail.mp3
+43:Sparkle - Your Name AMV.mp3
+44:Taylor Swift - exile.mp3
+45:The Police - Every Breath You Take (Official Music Video).mp3
+46:Toto - Africa (Official HD Video).mp3
+47:VØJ, Narvent - Memory Reboot.mp3
+48:Why Don_t We - 8 Letters.mp3
 playlist_end
