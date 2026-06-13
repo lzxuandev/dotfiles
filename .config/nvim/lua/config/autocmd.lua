@@ -22,3 +22,11 @@ vim.api.nvim_create_autocmd("FileType", {
     end,
 })
 
+vim.api.nvim_create_autocmd("BufEnter", {
+    pattern = "*",
+    callback = function()
+        if vim.bo.buftype == "" and vim.bo.filetype ~= "NvimTree" then
+            pcall(vim.cmd, "cd " .. vim.fn.expand("%:p:h"))
+        end
+    end,
+})
