@@ -8,6 +8,11 @@ A Hyprland configuration with minimal black and white e-ink themes, and essentia
 ![Quickshell](https://img.shields.io/badge/quickshell-3b9a5c?style=for-the-badge&logo=quickshell&logoColor=black)
 
 ## Showcase
+
+https://github.com/user-attachments/assets/fa45690f-ed9e-4ae9-af76-a1b1d928fac2
+
+---
+
 <div align="center">
   
 <div style="display:flex; justify-content:center; gap:10px;">
@@ -76,9 +81,6 @@ A Hyprland configuration with minimal black and white e-ink themes, and essentia
 
 <br>
 
-https://github.com/user-attachments/assets/fa45690f-ed9e-4ae9-af76-a1b1d928fac2
-
-<br>
 
 ## Disclaimer
 
